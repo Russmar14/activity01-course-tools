@@ -32,7 +32,15 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 7. Return to the **Day 1** `README` file to finish the process of committing and pushing to GitHub.
 
 ```{r simple-calculations}
-# Item 1
-
+# Item 1 - adding 2 and 5 with addition operator
+2 + 5
+# item 2 - seq() creates a sequence of values between your from and to values
+int_vect <- seq(1,9) # 
+#item 3 - LETTERS is a constant, string index for specific subset of letters A - Q
+char_vect <- LETTERS[1:17]
+# item 4
+length(which(char_vect > 'D')) # length is like len() in python, which() returns T/F for each index of list object
+# item 5
+#done with activity 1
 ```
 
